@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.cont {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/01_08.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrap { 
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.box0 {
+    width: 1920px;
+}
+
+.box1 {
+    height: 150px;
+}
+.box2 {
+    height: 653px;
+    width: 100%;
+    background-image: url('img/01_05.png');
+    background-position-x: center; 
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+
+/**---
+.box3 { 
+    height: 1920px;
+    widths: 100%;
+    background-image: url('img/01_06.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+}
+---**/
+.box3{ 
+    height: 382px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box4 {
+    height: 382px;
+    position: absolute;
+    bottom: 0;
+}
+/*--네비게이션 시작--*/
+nav {
+    width: 100%;
+    height: 100px;
+}
+ul {
+    width: 1100px;
+    height: 95px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bt00 {padding-right: 366.7px;}
+
+/*--서브01 CSS시작--*/
+.s01_b00 { 
+    width: 100%;
+}
+.s01_b01 { 
+    height: 1875px;
+    background-color:#fff;
+    background-image: url('img/s01_01.png');
+}
+.s01_b01_txt1{
+    height: 473px;
+    position: relative;
+}
+.s01_b01_txt1_img {
+    width: 1100px;
+    height: 473px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 908px;
+    bottom: 394px;
+}
+.s01_b01_txt2{
+    height: 47.06px;
+    position: relative;
+}
+.s01_b01_txt2_img {
+    width: 1100px;
+    height: 47.06px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1553px;
+    bottom: 175px;
+}
+.s01_b02 { 
+    height: 388px;
+    background-image: url('img/s01_bc04.png');
+
+}
+.s01_b03 { 
+    height: 734px;
+    position: relative;
+}
+.s01_b03_img{
+    width: 1100px;
+    height: 355px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 206px;
+    bottom: 173px;
+}
+
+#on_m { position: absolute;
+    opacity: 1;
+    background-color: #FF61A5; }
+#on_m:hover { 
+    position: absolute;
+    opacity: 0; }
+
+
+#on {
+    background-color: #fff;
+}
+#on {
+    position: absolute;
+    opacity: 1;
+}
+#on:hover {
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s;
+}
+#on_02 { position: absolute;
+    opacity: 1;
+    background-color: #FF448A; }
+#on_02:hover { 
+    position: absolute;
+    opacity: 0; }
+
+#on_03 { 
+    position: absolute;
+    opacity: 1;
+    background-color: none; 
+}
+#on_03:hover { 
+    position: absolute;
+    opacity: 0;
+}
+
+.s01_b04 { 
+    height: 817px;
+    position: relative;
+}
+.s01_b04_img {
+    width: 1100px;
+    height: 539px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 127px;
+    bottom: 151px;
+}
+.s01_b05 { 
+    height: 1008px;
+    position: relative;
+}
+.s01_b05_img {
+    width: 1100px;
+    height: 629px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 149px;
+    bottom: 230px;
+}
+.s01_b06 {
+    height: 957px;
+    position: relative;
+}
+.s01_b06_img {
+    width: 1100px;
+    height: 642px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+    bottom: 245px;
+}
+.s01_b07 { 
+    height: 1004px;
+    position: relative;
+}
+.s01_b07_img { 
+    height: 647.86px;
+    width: 1100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 56px;
+    bottom: 300px;
+}
+.ft {
+    height: 200px;
+    background-color:#FF448A;
+    position: relative;
+    bottom: 0;
+}
+.ft_txt {
+    width: 1100px;
+    height: 108px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60px;
+    bottom: 32px;
+}
+
+.s01_cen {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/*--서브02 CSS 시작--*/
+.s02_wrap {
+    width: 1920px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+}
+.s02_b00 {
+    width: 100%;
+    position:relative;
+}
+.s02_b01 {
+    height: 800px;
+    background-image: url('img/s02_01.png');
+}
+.s02_b02 {
+    height: 280px;
+}
+.s02_00 {
+    height: 500px;
+    width: 960px;
+    position: absolute;
+}
+.s02_b03, .s02_b05, .s02_b07, .s02_b09, .s02_b11 {
+    left: 0;
+}
+.s02_b04, .s02_b06, .s02_b08, .s02_b10, .s02_b12 {
+    right: 0;
+}
+
+/*--서브03 CSS 시작--*/
+.s03_cen {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.s03_b00 {
+    width: 100%
+}
+.s03_b01 {
+    height: 800px;
+    background-image: url(img/s03_01.png);
+}
+
+.s03_b03 { 
+    height: 192px;
+    position: relative;
+}
+.s03_b03_img {
+    width: 1100px;
+    height: 47.06px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 72.5px;
+    bottom: 72.5px;
+}
+.s03_b04 {
+    height: 608px;
+    position: relative;
+}
+.s03_b04_img {
+    width: 1100px;
+    height: 465px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 108px;
+    bottom: 35px;
+}
+.s03_b05 {
+    height: 524px;
+    position: relative;
+}
+.s03_b05_img {
+    width: 1100px;
+    height: 488px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 23px;
+    bottom: 13px;
+}
+.s03_b06 {
+    height: 456px;
+    position: relative;
+}
+.s03_b06_img {
+    width: 1100px;
+    height: 427px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 18px;
+    bottom: 11px;
+}
+.s03_b07 {
+    height: 630px;
+    position: relative;
+}
+.s03_b07_img {
+    width: 1100px;
+    height: 612px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px;
+    bottom: 18px;
+}
+.s03_b08 {
+    height: 584px;
+    position: relative;
+}
+.s03_b08_img {
+    width: 1100px;
+    height: 367px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 24px;
+    bottom: 193px;
+}
